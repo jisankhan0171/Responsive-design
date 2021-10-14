@@ -1,0 +1,150 @@
+
+
+/*====== Media query ======*/
+@media (max-width: 480px){
+/*------------------- header ---------------*/
+.container{
+width: 100%;
+padding: 0px 25px;
+}
+header{
+width: 100%;
+height: 100%;
+padding-bottom: 40px;
+position: relative;
+}
+
+.hero-text {
+text-align: left;
+margin-top: 7%;
+}
+.hero-text h1 {
+font-size: 35px;
+margin-bottom: 40px;
+text-align: left;
+}
+.hero-text .hero-btn {
+padding: 8px 27px;
+font-size: 16px;
+}
+
+
+header ul {
+   position: absolute;
+   background: rgba(0,0,0,.855);
+   height: 100%;
+   padding-top: 120px;
+   width: 100%;
+   top: 0;
+   left: 0; 
+   flex-direction: column;
+   display: none;
+   
+}
+
+header ul li{
+    margin: 0;
+    margin: 25px 0;
+    text-align: center;
+
+}
+
+header ul li a {
+    color: #fff;
+    padding: 0;
+    text-transform: uppercase;
+    font-size: 20px;
+    
+}
+.hamburger{
+    display: block;
+}
+
+header ul li a.active {
+    border-bottom: 0;
+}
+
+header ul li a:hover {
+    color: crimson;
+}
+
+
+/*-------------global------------*/
+
+section{
+padding: 50px 0;
+}
+.tittle-section{
+margin-bottom: 60px;
+}
+.tittle{
+font-size: 35px;
+}
+.col{
+flex-basis: 100%;
+margin-bottom: 70px;
+}
+.box-desc p{
+font-size: 17px !important;
+}
+
+
+/*-------------global end-------------/
+
+/*---------protfolio----------*/
+
+#protfolio .row .col {
+flex-basis: 100%;
+margin-bottom: 70px;
+}
+#protfolio .btn-group {
+text-align: left !important;
+}
+#protfolio .btn-group button {
+padding: 10px 20px;
+font-size: 15px;
+color: #f5f5f5;
+margin: 7px 7px !important;
+border-radius: 0;
+}
+.btn-protfolio {
+padding: 10px 23px;
+font-size: 16px;
+}
+
+/*review*/
+#review .row .col {
+flex-basis: 100%;
+margin-bottom: 70px;
+}
+#reviewCol {
+flex-wrap: wrap;
+}
+#review .left {
+padding-left: 0px;
+padding-right: 0px;
+margin-left: auto;
+margin-right: auto;
+}
+#review .right {
+padding-right: 0px;
+text-align: center;
+margin-top: 16px;
+}
+
+/* ----- contact --------- */
+
+#form .row {
+justify-content: space-between;
+flex-wrap:wrap;
+}
+#form .col-6 {
+flex-basis: 100%;
+}
+input.login {
+width: 170px !important;
+padding:8px 0px ! important;
+}
+
+/* ------ footer ------ */
+}
